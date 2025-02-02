@@ -1,0 +1,31 @@
+:root {
+  --font-size-xxl: 32px;
+  --font-size-xl: 28px;
+  --font-size-l: 24px;
+  --font-size-m: 22px;
+  --font-size-s: 18px;
+  --font-size-xs: 16px;
+  --font-size-xss: 14px;
+  --margin-m: 48px;
+  --margin-s: 24px;
+  --margin-xs: 12px;
+  --padding-m: 48px;
+  --padding-s: 24px;
+  --padding-xs: 12px;
+  --color-strong-cyan: #008cba;
+  --color-very-dark-cyan: #005f5f;
+  --color-teal: #008080;
+  --color-soft-lavender: #9370db;
+  --color-white: #fff;
+  --color-orange-peel: #ffa600;
+  --border-radius-s: 8px;
+}
+
+html {
+  background: linear-gradient(45deg, #6a0dad, #2d3436);
+}
+
+body {
+  font-size: var(--font-size-s);
+  font-family: "Quicksand", serif;
+}
